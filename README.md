@@ -14,11 +14,20 @@ A simple Python script to perform brute-force attacks on SSH servers using a lis
 - Works with Python 3.6+
 
 ---
+##  installation 
+```bash
+sudo apt update && upgrade
+sudo apt install git
+gitclone https://github.com/71ZK1/ssh-bruteforce
+cd ssh-bruteforce
+python3 ssh.py
+
 
 ##  Requirements
 
 - Python 3.6+
 - `paramiko` module
+
 
 Install dependencies:
 
